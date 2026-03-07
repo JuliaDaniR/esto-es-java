@@ -238,26 +238,6 @@ Al finalizar este módulo deberías poder:
 
 ---
 
----
-
-## 📘 Sobre *Esto es Java*
-
-Este repositorio acompaña el manual **"Esto es Java"**, un material diseñado para aprender el lenguaje desde su funcionamiento interno.
-
-🌐 Documentación del proyecto:  
-https://scalamentis.vercel.app/esto-es-java
-
-Cada laboratorio incluye:
-
-- explicación conceptual
-- experimentación práctica
-- análisis del comportamiento de la **JVM**
-- comparación entre **Java moderno y Java legacy**
-
-La idea no es solo aprender sintaxis, sino **entender cómo piensa el lenguaje y cómo se ejecuta el código**.
-
----
-
 ## 🔗 Recursos relacionados
 
 - 📘 Documentación: https://scalamentis.vercel.app/esto-es-java  
