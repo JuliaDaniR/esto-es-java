@@ -238,5 +238,3 @@ Al finalizar este módulo deberías poder:
 
 ---
 
-## 🔗 Recursos relacionados
-
