@@ -69,9 +69,4 @@ Julia Rodriguez
 ## 📜 Licencia
 
 MIT
-Puedes usar, estudiar y modificar el código libremente siempre que se mantenga la atribución al autor original.
 
-
-> Aprender Java no es solo escribir código.
-> Es entender cómo funciona la JVM.
-MIT
