@@ -73,6 +73,7 @@ Cada laboratorio tiene dos partes:
 | Explicación | `laboratorios/` | Explica el concepto |
 | Práctica | `labs/` | Código para experimentar |
 
+---
 Ejemplo:
 
 ```bash
