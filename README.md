@@ -163,9 +163,9 @@ Proyecto creado por Julia Daniela Rodriguez
 
 > Desarrolladora en formación enfocada en backend y arquitectura Java.
 
-### Este laboratorio forma parte del proyecto educativo:
+Este laboratorio forma parte del proyecto educativo:
 
-**Esto es Java**
+**"ESTO ES JAVA - Entiende el porqué, domina el cómo"**
 
 ---
 ## 📜 Licencia
