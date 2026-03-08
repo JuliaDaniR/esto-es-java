@@ -108,7 +108,7 @@ El objetivo no es solo ejecutar ejemplos, sino **observar cómo se comporta real
 ```bash
 git clone https://github.com/JuliaDaniR/esto-es-java.git
 ```
-
+---
 ### 2️⃣ Cambiar a la rama del módulo que quieras explorar
 
 Ejemplo:
@@ -118,17 +118,22 @@ git checkout modulo1
 ```
 Cada módulo vive en su propia rama.
 
+---
 ### 3️⃣ Explorar los laboratorios
 
 Dentro de cada módulo encontrarás dos carpetas principales:
 ```
 laboratorio/
 labs/
-Carpeta	Contenido
-laboratorio	explicación conceptual
-labs	experimentos en código
 ```
-La idea es leer la explicación y luego ejecutar el laboratorio.
+--- 
+
+| Carpeta | Contenido |
+|--------|-----------|
+| `laboratorio` | explicación conceptual |
+| `labs` | experimentos en código |
+
+La idea es **leer la explicación y luego ejecutar el laboratorio**.
 
 ---
 
