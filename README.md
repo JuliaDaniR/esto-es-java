@@ -1,72 +1,242 @@
-# ☕ Esto es Java — Laboratorio Viviente
+# ☕ Esto es Java — Módulo 1
 
-> **"Entiende el porqué, domina el cómo"**
+![Java](https://img.shields.io/badge/Java-21+-orange)
+![Labs](https://img.shields.io/badge/labs-prácticos-green)
 
-Este repositorio es el **laboratorio viviente del roadmap “Esto es Java”**.
+Este módulo introduce los **fundamentos de Java y la JVM**.  
+El objetivo es comprender **cómo funciona Java internamente**, más allá de solo escribir código.
 
-Aquí se documentan, experimentan y construyen los ejemplos, laboratorios y exploraciones que acompañan el proceso de aprender Java **desde sus fundamentos hasta el desarrollo profesional**.
+Aquí exploramos conceptos esenciales como:
 
-No es simplemente una colección de ejercicios.  
-Es un espacio donde el aprendizaje ocurre **a través de la exploración, la experimentación y la comprensión profunda del lenguaje**.
+- La **plataforma Java**
+- La **JVM**
+- El **bytecode**
+- La **memoria y el Garbage Collector**
+- El **String Pool**
+- La evolución del lenguaje
+- Un **proyecto integrador**
 
----
-
-## 🧠 Filosofía del proyecto
-
-Aprender Java no es memorizar sintaxis.
-
-Es comprender:
-
-- cómo funciona la **JVM**
-- cómo se ejecuta el **bytecode**
-- cómo se gestiona la **memoria**
-- cómo evolucionó el lenguaje
-- cómo se diseñan aplicaciones reales
-
-Este repositorio refleja ese enfoque:  
-cada laboratorio busca responder **el porqué de las cosas**, no solo el cómo.
+Este módulo combina **explicación conceptual + experimentación práctica**.
 
 ---
 
-## 🧪 Un laboratorio en evolución
+## 🧭 Cómo está organizado el módulo
 
-El proyecto sigue un **roadmap de aprendizaje en constante evolución**.
+El módulo se divide en dos partes principales:
 
-Los laboratorios que encontrarás aquí:
+```
+modulo1
+│
+├── laboratorio
+│ ├── explicaciones y guías conceptuales
+│
+├── labs
+│ ├── ejercicios prácticos en código
+│
+└── README.md
+```
 
-- exploran conceptos del lenguaje
-- prueban comportamientos de la JVM
-- documentan descubrimientos
-- acompañan el desarrollo de nuevos módulos del roadmap
+## 📖 Carpeta `laboratorio`
 
-A medida que el roadmap crece, **este laboratorio también crece**.
+Contiene la **explicación teórica de cada laboratorio**.
 
----
+Aquí encontrarás:
 
-## 🧭 Roadmap del aprendizaje
+- contexto conceptual
+- explicación paso a paso
+- ejemplos de código
+- referencias al laboratorio práctico
 
-El recorrido completo está documentado en el proyecto **Esto es Java**, donde se presenta la ruta de aprendizaje completa para convertirse en desarrollador/a Java profesional.
-
-🌐 Documentación y guía de estudio  
-https://scalamentis.vercel.app/esto-es-java
-
----
-
-## 🎯 Objetivo
-
-Construir una base sólida para comprender Java con criterio profesional.
-
-No solo aprender a usar el lenguaje, sino **entender cómo funciona realmente**.
-
----
-
-## 👩‍💻 Autor
-
-Julia Rodriguez
+Estos documentos funcionan como **guía de estudio**.
 
 ---
 
-## 📜 Licencia
+## 🧪 Carpeta `labs`
 
-MIT
+Aquí se encuentran los **ejercicios prácticos**.
+
+En estos laboratorios podrás:
+
+- ejecutar código Java
+- modificar ejemplos
+- experimentar con el comportamiento de la JVM
+- observar cómo funciona Java internamente
+
+---
+
+## 🔗 Relación entre `labs` y `laboratorios`
+
+Cada laboratorio tiene dos partes:
+
+| Parte | Ubicación | Descripción |
+|-----|-----|-----|
+| Explicación | `laboratorios/` | Explica el concepto |
+| Práctica | `labs/` | Código para experimentar |
+
+Ejemplo:
+
+```bash
+laboratorios/lab05-memoria.md
+```
+
+explica el funcionamiento del **Garbage Collector**
+
+mientras que:
+
+```bash
+/modulo1/labs/memoria/GarbageCollectionDemo
+```
+
+contiene código para **experimentar con memoria y GC**.
+
+---
+
+## 📚 Laboratorios del módulo
+
+| Lab | Tema |
+|----|----|
+| Lab 01 | Plataforma |
+| Lab 02 | Memoria|
+| Lab 03 | JVM |
+| Lab 04 | Evolucion |
+| Lab 05 | Legacy |
+| Lab 06 | Modernizacion |
+| Lab 07 | Refactor |
+| Lab 08 | Proyecto integrador |
+
+---
+
+## 🧠 Recorrido sugerido
+
+Se recomienda seguir los laboratorios **en orden**, ya que cada uno construye sobre el anterior.
+
+### 1️⃣ Plataforma Java
+
+- qué es Java
+- cómo funciona la plataforma
+- compilación y ejecución de programas
+
+---
+
+### 2️⃣ Memoria en Java
+
+- cómo se almacenan los objetos
+- referencias
+- conceptos básicos de memoria
+
+---
+
+### 3️⃣ JVM
+
+- qué es la Java Virtual Machine
+- cómo ejecuta bytecode
+- portabilidad del lenguaje
+
+---
+
+### 4️⃣ Evolución de Java
+
+- historia del lenguaje
+- cambios en versiones importantes
+- introducción de nuevas características
+
+---
+
+### 5️⃣ Código Legacy
+
+- características del código Java antiguo
+- problemas comunes en sistemas legacy
+- patrones que aparecen en código antiguo
+
+---
+
+### 6️⃣ Modernización
+
+- uso de características modernas de Java
+- mejoras de legibilidad y seguridad de tipos
+- actualización de código existente
+
+---
+
+### 7️⃣ Refactorización
+
+- transformación de código legacy
+- mejora de diseño y estructura
+- preparación del código para Java moderno
+
+---
+
+### 8️⃣ Proyecto Integrador
+
+Implementación de un pequeño proyecto que compara:
+
+- código **Java legacy**
+- código **Java moderno**
+
+Analizando:
+
+- estilo de programación
+- legibilidad
+- rendimiento
+
+---
+
+## ▶️ Cómo ejecutar los laboratorios
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/JuliaDaniR/esto-es-java.git
+```
+2️⃣ Entrar al módulo
+```bash
+cd esto-es-java/modulo1
+```
+3️⃣ Ir al labs
+```bash
+labs/
+```
+4️⃣ Compilar
+```bash
+javac Archivo.java
+```
+5️⃣ Ejecutar
+```bash
+java Archivo
+```
+---
+## 🎯 Objetivo del módulo
+
+Al finalizar este módulo deberías poder:
+
+- entender cómo funciona Java internamente
+- comprender cómo la JVM ejecuta código
+- analizar cómo se gestiona la memoria
+- interpretar bytecode
+- comprender la evolución del lenguaje Java
+
+---
+
+## 🧪 Recomendación
+
+> No te limites a ejecutar el código.
+
+**Intenta también:**
+
+- modificar ejemplos
+- cambiar estructuras
+- agregar println
+- experimentar con diferentes escenarios
+
+> La mejor forma de aprender Java es experimentando con el código.
+
+---
+
+## ☕ Sobre este repositorio
+
+> Este proyecto forma parte de Esto es Java, una serie de laboratorios diseñados para aprender > Java entendiendo cómo funciona realmente el lenguaje.
+
+---
+
+## 🔗 Recursos relacionados
 
